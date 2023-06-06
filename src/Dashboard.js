@@ -3,7 +3,7 @@ import './Dashboard.css';
  
 function Dashboard() {
     const [style, setStyle] = useState("navbar-nav bg-gradient-primary sidebar sidebar-dark accordion");
-
+ 
     const changeStyle = () => {
         if (style == "navbar-nav bg-gradient-primary sidebar sidebar-dark accordion")
         { 
